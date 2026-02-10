@@ -5,7 +5,7 @@ pipeline {
         AWS_REGION = "us-east-1"
         ECR_REPO = "025707649967.dkr.ecr.us-east-1.amazonaws.com/devops-home-task-api"
         IMAGE_TAG = "${BUILD_NUMBER}"
-        APP_SERVER = "3.89.84.205"
+        APP_SERVER = "ubuntu@10.0.2.183"
     }
 
     stages {
@@ -65,3 +65,4 @@ pipeline {
         }
     }
 }
+MD
